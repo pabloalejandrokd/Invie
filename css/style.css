@@ -8,14 +8,7 @@ html, body{
 	width: 100%;
 	font-size: 16px;
 }
-header img{
+img{
 	width: 100%;
-}	
-.hero, .acustica, .clasica{
-	min-height: 350px;
-	background-size: cover;
-	background-repeat: no-repeat;
+	vertical-align: top;
 }
-.hero{background-image: url('../images/hero.jpg');}
-.acustica{background-image: url('../images/acustica.jpg');}
-.clasica{background-image: url('../images/clasica.jpg');}
