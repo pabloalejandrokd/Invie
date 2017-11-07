@@ -11,9 +11,11 @@ html, body{
 header img{
 	width: 100%;
 }	
-.hero{
-	background-image: url('../images/hero.jpg');
+.hero, .acustica, .clasica{
 	min-height: 350px;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.hero{background-image: url('../images/hero.jpg');}
+.acustica{background-image: url('../images/acustica.jpg');}
+.clasica{background-image: url('../images/clasica.jpg');}
