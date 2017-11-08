@@ -16,6 +16,26 @@ img{
 #responsive img{width: 100%; vertical-align: top;}
 .container, #responsive{ display: none; }
 
+#green { display: none; z-index: 99; width: 100%; position: absolute; top: 0; left: 0; }
+#green img { width: 100%; vertical-align: top; }
+
+.switchgreen {
+	position: fixed;
+	top: 50%;
+	left: 0px;
+	z-index: 100;
+	background-color: green;
+	padding: 15px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+    font-size: 1em;
+
+}
+.switchgreen:hover + div{ display: block !important; }
 
 /******** RESPONSIVE *********/
 @media only screen and (max-width: 768px){
